@@ -1,0 +1,53 @@
+{
+  "eq_id": "benchmark",
+  "form_type": "test_checkboxes",
+  "requests": [
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_checkboxes/benchmark123/checkboxes/0/mandatory-checkbox"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_checkboxes/benchmark123/checkboxes/0/mandatory-checkbox",
+      "data": {
+        "mandatory-checkbox-answer": "Ham & Cheese",
+        "other-answer-mandatory": ""
+      }
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_checkboxes/benchmark123/checkboxes/0/non-mandatory-checkbox"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_checkboxes/benchmark123/checkboxes/0/non-mandatory-checkbox",
+      "data": {
+        "non-mandatory-checkbox-answer": "Ham",
+        "other-answer-non-mandatory": ""
+      }
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_checkboxes/benchmark123/checkboxes/0/single-checkbox"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_checkboxes/benchmark123/checkboxes/0/single-checkbox",
+      "data": {}
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_checkboxes/benchmark123/confirmation-group/0/confirmation"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_checkboxes/benchmark123/checkboxes/0/submit",
+      "data": {}
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_checkboxes/thank-you",
+      "data": {}
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Default values for chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+parallelism: 1
+container:
+  image: eu.gcr.io/census-eq-ci/eq-survey-runner-benchmark:latest
+  pullPolicy: Always
+
+host: ''
+requestsJson: 'requests/test_checkbox.json'
+userWaitTimeMinSeconds: 1
+userWaitTimeMaxSeconds: 2
+locustOptions: '--headless --users 800 --hatch-rate 10 --loglevel=CRITICAL --run-time=2h --only-summary'
+output:
+  bucket: ''
+  directory: ''

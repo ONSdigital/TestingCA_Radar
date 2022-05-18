@@ -1,0 +1,119 @@
+{
+  "eq_id": "benchmark",
+  "form_type": "test_business",
+  "requests": [
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/introduction-block"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/introduction-block",
+      "data": {}
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/group91"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/group91",
+      "data": {
+        "answer434": "No"
+      }
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block380"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block380",
+      "data": {
+        "answerfrom-day": 1,
+        "answerfrom-month": 5,
+        "answerfrom-year": 2019,
+        "answerto-day": 1,
+        "answerto-month": 8,
+        "answerto-year": 2019
+      }
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block381"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block381",
+      "data": {
+        "answer436": 100,
+        "answer437": 100
+      }
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block4616"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block4616",
+      "data": {
+        "answer5873": "Yes"
+      }
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block4952"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block4952",
+      "data": {
+        "answer6287": "Yes"
+      }
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block4953"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block4953",
+      "data": {
+        "answer6288": "One-off increase in stocks"
+      }
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block383"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/groupquestionnaire-introduction/0/block383",
+      "data": {
+        "answer439": "Differences textarea"
+      }
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/confirmation-group/0/confirmation"
+    },
+    {
+      "method": "POST",
+      "url": "/questionnaire/benchmark/test_business/benchmark123/confirmation-group/0/confirmation",
+      "data": {}
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/thank-you"
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/view-submission"
+    },
+    {
+      "method": "GET",
+      "url": "/questionnaire/benchmark/test_business/download-pdf"
+    }
+  ]
+}
