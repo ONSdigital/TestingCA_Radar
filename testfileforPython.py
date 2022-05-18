@@ -13,7 +13,7 @@ def parse_har_file(har_file):
     This currently filters requests by content_type (text/html)
     """
     har_parser = HarParser(json.load(har_file))
-	password="sillytest"
+	password="sillytest1"
 
     requests = []
 
